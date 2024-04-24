@@ -7,7 +7,7 @@ interface PageComponent {
   title: string;
 }
 
-class Component<T extends PageComponent> {
+class Component<T> {
   constructor(public props: T) {}
 }
 

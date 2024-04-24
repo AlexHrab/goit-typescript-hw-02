@@ -4,7 +4,7 @@
 */
 // done
 
-interface KeyValuePair<V, K extends keyof V> {
+interface KeyValuePair<V, K> {
   key: K;
   value: V;
 }
